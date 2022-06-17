@@ -134,6 +134,7 @@ BOARD_MAIN_SIZE := 7730906700
 BOARD_MAIN_PARTITION_LIST := system odm vendor product
 
 # TWRP Configuration: Basic config
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/prebuilt/recovery.fstab
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
